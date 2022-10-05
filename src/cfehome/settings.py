@@ -20,10 +20,10 @@ DATA_DIR = BASE_DIR / "data"
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY', default=None)
+SECRET_KEY = 'kfjekfjekhfjejfhjfefhevbhkvkhvfehf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DJANGO_DEBUG', default=0, cast=bool) # True/False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
